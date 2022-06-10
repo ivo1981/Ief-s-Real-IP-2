@@ -8,12 +8,19 @@
 
 # Declare variables
 declare message
+declare domain
+declare actualip
 
+actualip=dig onzecaravan.hopto.org +short
 ## Get the 'message' key from the user config options.
 message=$(bashio::config 'message')
+domain=$(bashio::config 'domain')
 
 ## Print the message the user supplied, defaults to "Hello World..."
-bashio::log.info "${message:="Hello World..."}"
+# bashio::log.info "${message:="Hello World..."}"
+# bashio::log.info "${domain:="ief.com"}"
+
+bashio::log.info "$(actualip:=geenidee)" 
 
 ## Run your program
 exec /usr/bin/my_program
