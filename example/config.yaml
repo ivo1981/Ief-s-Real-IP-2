@@ -1,8 +1,8 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "1.2.0"
-slug: example
-description: Example add-on
+name: Ief's Real IP 2
+version: "1.2.1"
+slug: ipgetter
+description: IP fetch add-on
 url: "https://github.com/home-assistant/addons-example/tree/main/example"
 arch:
   - armhf
@@ -15,6 +15,8 @@ map:
   - share:rw
 options:
   message: "Hello world..."
+  domain: "ief.com"
 schema:
   message: "str?"
+  domain: "str?"
 image: "ghcr.io/home-assistant/{arch}-addon-example"
