@@ -6,9 +6,9 @@ build_from:
   armv7: "ghcr.io/home-assistant/armv7-base:3.15"
   i386: "ghcr.io/home-assistant/i386-base:3.15"
 labels:
-  org.opencontainers.image.title: "Home Assistant Add-on: Example add-on"
-  org.opencontainers.image.description: "Example add-on to use as a blueprint for new add-ons."
-  org.opencontainers.image.source: "https://github.com/home-assistant/addons-example"
+  org.opencontainers.image.title: "Ief's Real IP add-on"
+  org.opencontainers.image.description: "Simple add-on to use together with the duckdns addon to fetch and update your real IP."
+  org.opencontainers.image.source: "https://github.com/ivo1981/Ief-s-Real-IP-2/tree/main/example"
   org.opencontainers.image.licenses: "Apache License 2.0"
 args:
   TEMPIO_VERSION: "2021.09.0"
