@@ -3,7 +3,7 @@ name: Ief's Real IP 2
 version: "1.2.1"
 slug: ipgetter
 description: IP fetch add-on
-url: "https://github.com/home-assistant/addons-example/tree/main/example"
+url: "https://github.com/ivo1981/Ief-s-Real-IP-2/tree/main/example"
 arch:
   - armhf
   - armv7
