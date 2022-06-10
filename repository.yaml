@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
+name: Ief's Real IP add-on repository
+url: 'https://github.com/ivo1981/Ief-s-Real-IP-2'
 maintainer: Awesome Maintainer <awesome@example.com>
