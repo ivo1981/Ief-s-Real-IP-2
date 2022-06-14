@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python3 -m ipgetter.py
+python3 -m /usr/bin/ipgetter.py
 echo "All done!" > /share/example_addon_output.txt
