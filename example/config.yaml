@@ -11,6 +11,9 @@ arch:
   - amd64
   - i386
 init: false
+startup: before
+ports:
+  8000/tcp: 8000
 map:
   - share:rw
 options:
